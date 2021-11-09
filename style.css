@@ -1,0 +1,237 @@
+/*Entire page*/
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/*Quadrant 1*/
+.section1 {
+    background: #1F2937;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*All sections/quadrants*/
+.section {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+/*Logo at top left*/
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/*Header including logo and links*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*All links*/
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/*Links in the list at top right of the page*/
+li a {
+    font-size: 18px;
+}
+
+/*Links in the buttons*/
+button a {
+    font-size: 15px;
+}
+
+/*Unordered list containing the links at the top of the page*/
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+/*Title in the first quadrant*/
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+/*The text below the title in the first quadrant*/
+.intro {
+    color: #E5E7EB;
+    font-size: 18px;
+    overflow-wrap: normal;
+}
+
+/*First Sign Up button in the first quadrant*/
+.signup1 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    max-width: 100px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/*The part of the first quadrant below the header*/
+.container {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*The image in the first quadrant*/
+.img1 {
+    margin-left: 240px;
+    width: 900px;
+    height: 300px;
+    overflow: hidden;
+}
+
+/*The items aligned to the left in the first quadrant within the container (not including the logo)*/
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/*The title in the second quadrant*/
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 30px;
+}
+
+/*The container holding an image and a caption in the second quadrant*/
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*Styles applied to just the images in the second quadrant*/
+.info img {
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+/*Unique style for the volcano image so that it is cropped to the left*/
+.volcano img {
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 25% 0;
+}
+
+/*Total of Quadrant 2*/
+.section2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/*Captions underneath the pictures in Quadrant 2*/
+.text {
+    overflow-wrap: normal;
+    max-width: 300px;
+}
+
+/*Quadrant 3*/
+.section3 {
+    margin-top: 50px;
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Quote in Quadrant 3*/
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+/*Author of the quote*/
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+
+/*Quadrant 4*/
+.section4 {
+    display: flex;
+    background: #3882F6;
+    color: #E5E7EB;
+    margin: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Text saying "Call to Action" in Quadrant 4*/
+.call {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*The left part of Quadrant 4 (not the button)*/
+.left1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/*The other text in Quadrant 4*/
+.caption {
+    color: #E5E7EB;
+    font-size: 15px;
+}
+
+/*Second Sign Up button in Quadrant 4*/
+.signup2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+}
