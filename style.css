@@ -100,6 +100,7 @@ ul {
     width: 900px;
     height: 300px;
     overflow: hidden;
+    min-width: 300px;
 }
 
 /*The items aligned to the left in the first quadrant within the container (not including the logo)*/
@@ -123,6 +124,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex-shrink: 1;
 }
 
 /*Styles applied to just the images in the second quadrant*/
@@ -145,9 +147,9 @@ ul {
 /*Total of Quadrant 2*/
 .section2 {
     display: flex;
-    gap: 10px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 70px;
     margin-bottom: 50px;
 }
 
